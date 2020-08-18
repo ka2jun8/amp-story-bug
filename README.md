@@ -65,7 +65,7 @@ img タグの親に i-amphtml-sizer-intrinsic が必要だと言っている。
 https://github.com/ampproject/amphtml/pull/24119/
 
 Validator support for transformed intrinsic layout なので、intrinsic layout が変換されたときに自動的にできるタグに対して validator をサポートした様子。
-よくよく上記specをみてみると、確かに attribute もそれ用にバリデートされている。 （編集済み） 
+よくよく上記specをみてみると、確かに attribute もそれ用にバリデートされている。  
 
 sample.html も story-sample.html も amp-img の layout は responsive なので、intrinsicじゃない。
 どこで判断してるかわからないけどおそらく layout が intrinsic の場合に validation する spec なので、
